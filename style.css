@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.first-section{
+    height: 100vh;
+    background-image: url(./images/getty-student-laptop3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.about-section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.about-section h2{
+    color: rgb(15, 15, 202);
+    font-size: 4.5rem;
+}
+
+.images-person{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.text-person{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 2.3rem;
+}
+
+.text-person p{
+    margin-bottom: 1.5rem;
+}
+
+.about-section img{
+   width: 45%; 
+   height: 90%;
+   border-radius: 20px;
+}
+
+.format-section{
+    background-color: rgb(28, 4, 47);
+    height: 100vh;
+}
+
+.format-section h2{
+    padding-top: 3.9rem
+}
+
+.main-format{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.format-section h2{
+    text-align: center;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.format-section img{
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.format_1, .format_2{
+    text-align: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.content-section h2{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 5.5rem;
+    color: blue;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card{
+    width: 38%;
+    border: rgb(106, 16, 126) solid 1px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-header{
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5rem;
+    
+}
+
+.card-header h3{
+    font-size: 2rem;
+}
+
+.card-header h4{
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+}
+
+.card-header p{
+    font-size: 2rem;
+}
+
+.card-content{
+    padding: 5rem;
+    line-height: 3.9rem;
+    font-size: 2rem;
+}
+
+.benefits-section{
+    background-color: rgb(28, 4, 47);
+    margin-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.benefits-section h2{
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    text-align: center;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.main-benefits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9rem;
+}
+
+.benefits_1, .benefits_2{
+    width: 30%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.benefits_1 img, .benefits_2 img{
+    width: 20%;
+}
+
+.information-section{
+    padding: 20rem;
+    background-image: url(./images/Digital_Tech.jpg);
+    background-size: cover;
+}
+
+.information-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.speakers-section{
+    padding: 4rem;
+}
+
+.speakers-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card-speaker{
+    width: 20%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card-speaker img{
+    width: 100%;
+    border-radius: 15px;
+   
+}
+
+
+
