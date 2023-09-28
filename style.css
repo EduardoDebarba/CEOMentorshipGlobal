@@ -216,6 +216,60 @@ h2{
     color: #fff;
 }
 
+.button {
+    --color: #ffffff;
+    padding: 0.8em 1.7em;
+    background-color: #fff;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: blue;
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: blue;
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: #fff;
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   
 .speakers-section{
     padding: 4rem;
 }
@@ -270,13 +324,70 @@ h2{
     flex-direction: column;
 }
 
-.form{
+.text-offer h3{
+    color: blue;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text-offer h4{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.text-offer span{
+    color: blue;
+}
+
+.text-offer p{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin-bottom: 5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.text-offer button{
+    margin-top: 3rem;
+}
+
+.all-form{
     width: 30%;
     background-color: blue;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     flex-direction: column;
+}
+
+.all-form h3{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.label{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+form input{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+form{
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 
