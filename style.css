@@ -18,22 +18,19 @@ h2{
 }
 
 .first-section{
-    height: 100vh;
+    height: 100vh; 
     background-image: url(./images/getty-student-laptop3.jpg);
-    background-position: center;
+    height: 100vh;
     background-size: cover;
-    position: relative;
+    background-position: center;
+    width: 100%;
 }
-
-
 
 .about-section{
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .about-section h2{
@@ -389,6 +386,115 @@ form{
     width: 100%;
     text-align: center;
 }
+
+.companies-section{
+   margin-right: 15%;
+   margin-left: 15%;
+}
+
+.companies-section h2{
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    text-align: center;
+    font-size: 5.5rem;
+    color: blue;
+}
+
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.companies img{
+    width: 17%;
+}
+
+.sales-section{
+   padding: 5rem;
+   background-color: rgb(255, 251, 246);
+}
+
+.sales-section h2{
+    padding-bottom: 3.9rem;
+    text-align: center;
+    font-size: 5.5rem;
+    color: blue;
+}
+
+.sales-section p{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.sales-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12rem;
+}
+
+.sales-section img{
+    width:9%;
+}
+
+.faq-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20rem;
+}
+
+.faq-section h2{
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    text-align: center;
+    font-size: 5.5rem;
+    color: blue;
+}
+
+details{
+    margin-bottom: 2rem;
+    background-color: rgb(214, 214, 214);
+    width:55%;
+    padding: 1.5rem;
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details:hover{
+    background-color: blue;
+    color: rgb(214, 214, 214); ;
+    transition: 0.5s;
+}
+
+.faq-section p{
+    padding: 1.5rem;
+    color: black;
+    font-weight: normal;
+}
+
+footer{
+    background-color: rgb(218, 218, 220);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+footer img{
+    width: 20%;
+}
+
 
 
 
