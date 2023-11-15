@@ -11,6 +11,7 @@ body{
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 h2{
@@ -19,7 +20,7 @@ h2{
 
 .first-section{
     background-image: url(./images/getty-student-laptop3.jpg);
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,17 +30,24 @@ h2{
     position: relative;
     z-index: 1;
     text-align: justify;
+    background-attachment: fixed;
 }
 
 .description{
     display: flex;
     justify-content: center;
-    margin-left: 20rem;
+    margin-left: 18rem;
     flex-direction: column;
     gap: 2rem;
     position: absolute;
     z-index: 2;
     height: 100%;
+}
+
+.description img{
+    width: 60%;
+    padding-bottom: 2rem;
+    margin-left: -1.4rem;
 }
 
 .description h1{
@@ -112,12 +120,14 @@ h2{
 }
 
 .format-section{
-    background-color: rgb(28, 4, 47);
-    height: 100vh;
+    background: rgb(26,47,153);
+    background: radial-gradient(circle, rgba(26,47,153,1) 0%, rgba(5,3,18,1) 100%);
+    background-attachment: fixed;
+    padding-bottom: 6.9rem;
 }
 
 .format-section h2{
-    padding-top: 3.9rem
+    padding-top: 3.9rem;
 }
 
 .main-format{
@@ -125,6 +135,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    flex-wrap: wrap;
 }
 
 .format-section h2{
@@ -174,6 +185,7 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .card-header{
@@ -181,7 +193,6 @@ h2{
     color: #fff;
     border-radius: 15px;
     padding: 5rem;
-    
 }
 
 .card-header h3{
@@ -204,7 +215,8 @@ h2{
 }
 
 .benefits-section{
-    background-color: rgb(28, 4, 47);
+    background: rgb(26,47,153);
+    background: radial-gradient(circle, rgba(26,47,153,1) 0%, rgba(5,3,18,1) 100%);
     margin-top: 7rem;
     padding-bottom: 7rem;
 }
@@ -246,6 +258,7 @@ h2{
     padding: 20rem;
     background-image: url(./images/Digital_Tech.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .information-content{
@@ -306,6 +319,8 @@ h2{
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
 }
 
 .text-offer{
@@ -509,3 +524,178 @@ footer img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .first-section{
+        
+    }
+
+    .description{
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .description h1{
+        text-align: center;
+        text-align-last: center;
+        font-size: 3rem;
+    }
+
+    .description img{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .description p{
+        text-align: center;
+    }
+
+    .about-section{
+        flex-direction: column;
+        height: 100%;
+        order: 1;
+        margin-bottom: 10rem;
+    }
+
+    .images-person{
+        width: 90%;
+        padding: 0;
+        order: 2;
+    }
+
+    .text-person{width: 80%;
+    text-align: center;}
+
+    .about-section img{
+        width: 90%;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    .card-header{
+        padding: 3rem;
+    }
+
+    .card-content{
+        padding: 3rem;
+    }
+
+    .benefits-section h2{
+        padding: 3rem;
+    }
+
+    .benefits_1, .benefits_2{
+        width: 80%;
+    }
+
+    .information-section{
+        padding: 5rem;
+    }
+
+    .information-content{
+        flex-direction: column;
+        gap: 10rem;
+        text-align: center;
+    }
+
+    .information-content .button{
+        width: 95%;
+    }
+
+    .card-speaker{
+        width: 90%;
+    }
+
+    .form-section{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-offer{
+        width: 80%;
+    }
+
+    .all-form{
+        width: 80%;
+    }
+
+   
+
+    .companies-section h2{
+        font-size: 4rem;
+    }
+
+    .companies img{
+        width: 40%;
+    }
+
+
+
+
+
+}
