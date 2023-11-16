@@ -185,14 +185,13 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .card-header{
     background-color: blue;
     color: #fff;
     border-radius: 15px;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .card-header h3{
@@ -209,7 +208,7 @@ h2{
 }
 
 .card-content{
-    padding: 5rem;
+    padding: 3rem;
     line-height: 3.9rem;
     font-size: 2rem;
 }
@@ -511,6 +510,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1.5rem;
 }
 
@@ -588,9 +588,7 @@ footer img{
 
 @media (min-width: 320px) and (max-width: 480px) {
     
-    .first-section{
-        
-    }
+
 
     .description{
         margin: 0;
@@ -678,13 +676,18 @@ footer img{
 
     .text-offer{
         width: 80%;
+        border-radius: 15px;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        margin-top: 3rem;
     }
 
     .all-form{
         width: 80%;
+        border-radius: 15px;
+        padding: 2rem;
+        margin-bottom: 3rem;
     }
-
-   
 
     .companies-section h2{
         font-size: 4rem;
@@ -694,8 +697,228 @@ footer img{
         width: 40%;
     }
 
+    .sales-section div{
+        gap: 5rem;
+    }
 
+    .sales-section img{
+        width:29%;
+    }
 
+    .faq-section{
+        margin-bottom: 5rem;
+    }
 
+    details{
+        width: 85%;
+    }
 
+    footer{
+        font-size: 1.9rem;
+    }
+
+    footer img{
+        width: 60%;
+    }
 }
+
+@media (min-width: 481px) and (max-width:991px){
+
+    .first-section{
+        
+    }
+
+    .description{
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .description h1{
+        text-align: center;
+        text-align-last: center;
+        font-size: 3rem;
+    }
+
+    .description img{
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .description p{
+        text-align: center;
+    }
+
+    .description .button{
+        width: 50%;
+    }
+
+    .about-section{
+        height: 100%;
+        order: 1;
+        flex-direction: row;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+    }
+
+    .images-person{
+        width: 30%;
+        flex-direction: row;
+        padding: 0;
+        order: 2;
+    }
+
+    .text-person{
+    width: 50%;
+    }
+
+    .images-person img:nth-child(2) {
+        display: none;
+    }
+
+    .about-section img{
+        width: 90%;
+    }
+
+    .main-format{
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        width: 44%;
+    }
+
+    .card-header{
+        padding: 3rem;
+    }
+
+    .benefits-section h2{
+        padding: 3rem;
+    }
+
+    .benefits_1, .benefits_2{
+        width: 40%;
+    }
+
+    .information-section{
+        padding: 5rem;
+    }
+
+    .information-content{
+        flex-direction: column;
+        gap: 10rem;
+        text-align: center;
+    }
+
+    .information-content .button{
+        width: 55%;
+    }
+
+    .card-speaker{
+        width: 30%;
+    }
+
+    .card-speaker h4{
+        text-align: center;
+    }
+
+    .form-section{
+        width: 100%;
+        height: 100%;
+        gap: 3rem;
+    }
+
+    .text-offer{
+        width: 45%;
+        border-radius: 15px;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .text-offer .button{
+        width: 100%;
+    }
+
+    .all-form{
+        width: 45%;
+        border-radius: 15px;
+        padding: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .all-form .button{
+        width: 100%;
+    }
+
+    .companies-section{
+        margin-right: 10%;
+        margin-left: 10%;
+     }
+
+    .companies-section h2{
+        font-size: 4rem;
+    }
+
+    .companies img{
+        width: 18%;
+    }
+
+    .sales-section div{
+        gap: 5rem;
+    }
+
+    .sales-section img{
+        width:10%;
+    }
+
+    .faq-section{
+        margin-bottom: 5rem;
+    }
+
+    details{
+        width: 85%;
+    }
+
+    footer{
+        font-size: 1.9rem;
+    }
+
+    footer img{
+        width: 30%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+   .images-person{
+    width: 55%;
+   }
+
+   .information-section .button{
+         width: 90%;
+   }
+
+   .form-section{
+    gap: 3rem;
+    height: 100%;
+   }
+
+   .text-offer{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+   }
+
+   .text-offer .button{
+    width: 100%;
+   }
+
+   .all-form{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+   }
+}
+
