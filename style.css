@@ -518,74 +518,6 @@ footer img{
     width: 20%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 320px) and (max-width: 480px) {
     
 
@@ -723,10 +655,6 @@ footer img{
 }
 
 @media (min-width: 481px) and (max-width:991px){
-
-    .first-section{
-        
-    }
 
     .description{
         margin: 0;
@@ -921,4 +849,3 @@ footer img{
     border-radius: 10px;
    }
 }
-
